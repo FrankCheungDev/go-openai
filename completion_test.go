@@ -1,8 +1,8 @@
 package openai_test
 
 import (
-	. "github.com/sashabaranov/go-openai"
-	"github.com/sashabaranov/go-openai/internal/test/checks"
+	. "github.com/FrankCheungDev/go-openai"
+	"github.com/FrankCheungDev/go-openai/internal/test/checks"
 
 	"context"
 	"encoding/json"

@@ -88,6 +88,11 @@ type ChatCompletionRequest struct {
 	User         string               `json:"user,omitempty"`
 	Functions    []FunctionDefinition `json:"functions,omitempty"`
 	FunctionCall any                  `json:"function_call,omitempty"`
+	AppId       string               `json:"app_id"`
+	AppSecret   string               `json:"app_secret"`
+	MaxLength   int                  `json:"max_length"`
+	IsKnowledge bool                 `json:"is_knowledge"`
+	ChatId      string               `json:"chat_id"`
 }
 
 type FunctionDefinition struct {
