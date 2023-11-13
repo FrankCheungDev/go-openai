@@ -92,7 +92,7 @@ type ChatCompletionRequest struct {
 	AppSecret   string               `json:"app_secret"`
 	MaxLength   int                  `json:"max_length"`
 	IsKnowledge bool                 `json:"is_knowledge"`
-	ChatId      string               `json:"chat_id"`
+	ChatId      string               `json:"chat_id,omitempty"`
 	KnowledgeType string             `json:"knowledge_type,omitempty"`
 }
 
