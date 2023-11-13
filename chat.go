@@ -93,6 +93,7 @@ type ChatCompletionRequest struct {
 	MaxLength   int                  `json:"max_length"`
 	IsKnowledge bool                 `json:"is_knowledge"`
 	ChatId      string               `json:"chat_id"`
+	KnowledgeType string             `json:"knowledge_type,omitempty"`
 }
 
 type FunctionDefinition struct {
